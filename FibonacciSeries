@@ -1,0 +1,11 @@
+n=int(input("Please enter the number till where u want the fibonacci series:"))
+n1=0
+n2=1
+for num in range(0, n):
+    if(num <= 1):
+        temp=num
+    else:
+        temp = n1 + n2
+        n1 = n2
+        n2= temp
+    print(temp)
