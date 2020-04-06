@@ -1,0 +1,11 @@
+list1=[12,-7,5,64,-14]
+for n in list1:
+    if (n >= 1):
+        print(n, end=' ')
+
+#for new line        
+print("\n")       
+
+list2=[12,14,-95,3]
+list2_ot = [num for num in list1 if num >= 0] 
+print(list2_ot)
